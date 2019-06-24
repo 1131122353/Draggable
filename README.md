@@ -1,5 +1,5 @@
 # Draggable
-移动端元素自由拖拽/悬浮/自动停靠/依附插件/jquery插件
+移动端 元素自由拖拽/悬浮/自动停靠/依附插件/jquery插件
 https://github.com/1131122353/Draggable/edit/master/README.md
 
 使用
@@ -26,5 +26,5 @@ https://github.com/1131122353/Draggable/edit/master/README.md
 </script>
 ```
 
-demo地址: https://pj.ngrok.xiaomiqiu.cn
+ 移动端 demo地址: https://pj.ngrok.xiaomiqiu.cn
 
