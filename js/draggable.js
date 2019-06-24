@@ -2,12 +2,12 @@
 	var draObj = function(ele,opt = {}){
     		this.$element = ele
     		this.default = {
-    			attachment:true,
-    			position:{},
-    			animate:true,
-    			_animatetime: '3',
-    			touchmoveCall:function(){},
-    			touchendCall:function(){}
+    			attachment:true, //是否开启自动停靠依附 默认 true
+    			position:{},     //设置拖拽释放后停靠位置, 默认空,就近依附，参数形式 {x（int）, y (int)}.
+    			animate:true,    //是否开启过渡动画，默认 true
+    			_animatetime: '3', //过渡动画时间, 默认'3'
+    			touchmoveCall:function(){}, //拖拽过程中钩子回调函数（可选）
+    			touchendCall:function(){} //拖拽释放后钩子回调函数（可选）
     		}
     		this.options = $.extend({}, this.default, opt)
     }
