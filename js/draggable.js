@@ -15,7 +15,7 @@
     	_start:function(){
     		var _this = this
     		this.$element.on('touchmove',function(e){
-				e.preventDefault();//阻止“默认行为”
+				e.preventDefault();//阻止'默认行为'
 			    // 鼠标相对于当前页面的坐标
 			   	var pageX = e.originalEvent.targetTouches[0].pageX
 			   	var pageY = e.originalEvent.targetTouches[0].pageY
@@ -49,7 +49,7 @@
 				return _this.options.touchmoveCall()
 			})
 			this.$element.on('touchend',function(e){
-				e.preventDefault();//阻止“默认行为”
+				e.preventDefault();//阻止'默认行为'
 				if (!_this.options.attachment) {
 					_this.options.touchendCall()
 					return false
